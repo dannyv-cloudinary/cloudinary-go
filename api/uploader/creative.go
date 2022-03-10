@@ -68,6 +68,7 @@ type MultiParams struct {
 	Async           bool   `json:"async,omitempty"`
 	Transformation  string `json:"transformation,omitempty"`
 	ResourceType    string `json:"-"`
+	Delay           int    `json:"delay,omitempty"`
 }
 
 // Multi Creates a single animated image, video or PDF from all image assets that have been assigned a specified tag.
